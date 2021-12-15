@@ -1,0 +1,82 @@
+{
+  "name": "world-project-holdings",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@emotion/react": "^11.4.1",
+    "@emotion/styled": "^11.3.0",
+    "@mui/icons-material/": "^5.0.3",
+    "@mui/lab": "^5.0.0-alpha.50",
+    "@mui/material": "^5.0.3",
+    "@mui/styles": "^5.0.1",
+    "@mui/x-data-grid": "^5.0.0-beta.3",
+    "@react-leaflet/core": "1.0.2",
+    "@react-spring/parallax": "^9.2.3",
+    "@react-spring/web": "^9.2.3",
+    "@testing-library/dom": ">=7.21.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.1",
+    "color.js": "^1.2.0",
+    "confetti-react": "^2.5.0",
+    "formik": "^2.2.6",
+    "gooey-react": "^1.1.0",
+    "jwt-decode": "^3.1.2",
+    "lodash-es": "4.17.11",
+    "node-sass": "^6.0.0",
+    "rc-rate": "^2.9.1",
+    "react": "^17.0.2",
+    "react-bubble-ui": "^1.1.1",
+    "react-div-100vh": "^0.6.0",
+    "react-dom": "^17.0.2",
+    "react-is": ">= 16.8.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-scroll": "^1.8.2",
+    "react-spinners": "^0.10.6",
+    "react-spring": "9.0.0-beta.3",
+    "react-use-gesture": "5.0.0",
+    "rxjs": "^7.0.1",
+    "styled-components": "^5.2.3",
+    "swiper": "^6.5.8",
+    "swr": "^0.5.5",
+    "typescript": ">=2.8.0 || >= 3.2.0-dev || >= 3.3.0-dev || >= 3.4.0-dev || >= 3.5.0-dev || >= 3.6.0-dev || >= 3.6.0-beta || >= 3.7.0-dev || >= 3.7.0-beta",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start-api": "cd api && poetry run flask run",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000",
+  "devDependencies": {
+    "@capacitor/android": "^3.0.1",
+    "@capacitor/cli": "^3.0.1",
+    "@capacitor/core": "^3.0.1",
+    "@capacitor/device": "^1.0.1",
+    "@capacitor/ios": "^3.0.1"
+  }
+}

@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: calc(100vh - 60px);
+  min-height: -webkit-fill-available;
+  min-height: -moz-available;
+  min-height: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.AppWrapper {
+  margin: 60px 0;
+}

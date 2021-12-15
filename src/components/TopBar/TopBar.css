@@ -1,0 +1,60 @@
+.TopBar {
+    width: 100%;
+    background-color: #F8F8F8;
+    color: #FD37AA;
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+.TopBar a {text-decoration: none;}
+
+.TopBar img.MyoLogo {
+    height: 40px; 
+    width: 40px;
+    align-self: center;
+    padding: 0;
+}
+
+.TopBar p.MyoText {
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.TopBar .AccountLink {
+    width: 50px;
+    color: #FD37AA;
+    align-self: center;
+    margin-right: 30px;
+    margin-top: 5px;
+    padding: 0 20px;
+    transition: .3s;
+}
+
+.TopBar .AccountLink:hover {
+    transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 414px) {
+    .TopBar {
+        height: 60px !important;
+    }
+
+    .TopBar p.MyoLogo {
+        height: 20px;
+    }
+    
+    .TopBar p.MyoText {
+        height: 30px;
+        margin: 0 auto 0 49px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .TopBar {
+        background-color: #424242d2
+    }
+}

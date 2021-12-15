@@ -1,0 +1,44 @@
+.ActivityIntroduction {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ActivityIntroduction img {
+    display: block;
+    border-radius: 15px;
+    width: 95%;
+    height: calc(25vh);
+    object-fit: cover;
+}
+
+.ActivityIntroduction img,
+.ActivityIntroduction h1,
+.ActivityIntroduction p {
+    margin: 10px;
+}
+
+.ActivityIntroduction h1 {
+    font-weight: 700;
+    font-size: 30px;
+    font-style: normal;
+}
+
+.ActivityIntroduction p {
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-height: 568px) {
+    .ActivityIntroduction h1 {
+        font-size: 22px;
+    }
+
+    .ActivityIntroduction p {
+        font-size: 14px;
+    }
+}

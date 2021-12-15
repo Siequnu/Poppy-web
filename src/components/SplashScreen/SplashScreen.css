@@ -1,0 +1,17 @@
+.SplashScreen {
+  background-color: #F8F8F8;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.SplashScreen img {
+  height: 80px;
+}
+
+.SplashScreen h1 {
+  color: #FD37AA;
+}

@@ -1,0 +1,15 @@
+.ListItem {
+    border-radius: .5em;
+    margin: 5px 0 5px 0;
+    color: #333;
+}
+
+.ListItem:hover {
+    background: #4a0c772f;
+}
+
+@media (prefers-color-scheme: dark) {
+   .ListItem {
+       color: white
+    }
+}
