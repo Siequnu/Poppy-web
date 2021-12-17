@@ -8,6 +8,7 @@ export function getCollections(collectionId = false) {
         {
             title: 'The 2021 NFT Christmas Cards',
             caption: "Why not make it a real 2021 Christmas by owning an exclusive NFT Christmas Card!",
+            url: 'https://opensea.io/collection/christmas-card-2021',
             thumbnail: "https://lh3.googleusercontent.com/uR1bMxd3GmS53ZAV3z6Bm_wuMgZRIKjLffxAVhgKmhjaNs6-NrRWmBJi0EUeXuJx9n_cs9I36KsnBA9ikR9BgkVRbniwfW31iCPQtg=w540",
             description: [
                 "Why not make it a real 2021 Christmas by owning an exclusive NFT Christmas Card!"
@@ -48,6 +49,7 @@ export function getCollections(collectionId = false) {
         {
             title: 'The Iconic McLaren Senna Collection',
             caption: "The highly collectible 2017 sports car reimagined for the metaverse.",
+            url: 'https://opensea.io/collection/mclaren-senna',
             thumbnail: "https://lh3.googleusercontent.com/C89fBczQt7I_BUvLoy5gUSZZlFhoQE-ey93nbt5ZNjOxiQ9MAvih70u_3XU3XZ7WgvjgqqLGu1UtF2-wH0ZIpcqpYCOOuR4-VnuJ=w403",
             description: [
                 "McLaren’s highly collectible 2017 Senna limited-production sports car reimagined for the metaverse.",

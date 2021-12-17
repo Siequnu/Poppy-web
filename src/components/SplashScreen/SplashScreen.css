@@ -15,3 +15,10 @@
 .SplashScreen h1 {
   color: #FD37AA;
 }
+
+
+@media (prefers-color-scheme: dark) {
+  .SplashScreen {
+    background-color: #2D323B;
+  }
+}
