@@ -69,7 +69,7 @@ def create_app(config_class):
         app.logger.addHandler(file_handler)
 
         app.logger.setLevel(logging.INFO)
-        app.logger.info('Myo App startup')
+        app.logger.info('Poppy App startup')
 
     db.create_all()
     db.session.commit()

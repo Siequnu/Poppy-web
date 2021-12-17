@@ -3,9 +3,9 @@ import os
 basedir = os.path.abspath(os.path.dirname(__file__))
 
 
-class thu(object):
-    APP_NAME = 'THU Business English'
-    APP_URL = 'https://thubusinessenglish.com'
+class poppy(object):
+    APP_NAME = 'APP NAME'
+    APP_URL = 'APP URL'
     RECOVER_EXTERNAL_URL = '/reset/'
     CONFIRM_URL = '/confirm/'
 
@@ -36,5 +36,5 @@ class thu(object):
     TS_RECOVER_SALT = ''
     TS_MAX_AGE = 86400
 
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://USERNAME:PASSWORD@localhost:3306/thu'
+    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://USERNAME:PASSWORD@localhost:3306/DBNAME'
     SQLALCHEMY_TRACK_MODIFICATIONS = True
