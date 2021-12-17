@@ -23,11 +23,11 @@ function Home(props) {
     <>
 
       <h1>Poppy</h1>
+      
       <a className="ButtonLink" href="https://opensea.io/POPPIES">
       <Button size="Large" variant="contained" endIcon={<LocalFloristIcon />}> Our OpenSea store</Button>
       </a>
   
-
       <PhotoDividerComponent thumbnail={getRandomThumbnail()} style={{ margin: '200px', display: 'block' }} />
 
       <Element name="about" className="element">

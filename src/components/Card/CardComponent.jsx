@@ -16,13 +16,13 @@ function CardComponent(props) {
                         <img src={card.thumbnail} alt="Header decoration" />
                     </div>
                     
-                    <div className="content">
+                    <div className="content" style={{height: props.height ? props.height : '200px'}}>
                         <h4>{card.title}</h4>
                         <p>{card.description}</p>
                     </div>
                     
                     <a href={card.url} className="read-more" style={{ textDecoration: 'none' }}>
-                       <span>Download file <ChevronRightIcon className="chevron-right" /></span>
+                       <span>Buy now <ChevronRightIcon className="chevron-right" /></span>
                     </a>
 
                 </div>

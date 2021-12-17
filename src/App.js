@@ -25,9 +25,9 @@ import TopBar from './components/TopBar/TopBar';
 import Home from './components/Home/Home.jsx'
 import SplashScreen from './components/SplashScreen/SplashScreen';
 import UserMenu from './components/UserMenu/UserMenu.jsx';
-import About from './components/About/About';
-import CourseMaterials from './components/CourseMaterials/CourseMaterials';
+import Art from './components/Art/Art';
 import Contact from './components/Contact/Contact';
+import Collection from './components/Collection/Collection';
 
 // Admin components
 import Dashboard from './components/Dashboard/Dashboard';
@@ -142,8 +142,8 @@ export default function App() {
                   <Switch>
                     <Route exact path="/"> <Home /> </Route>
 
-                    <Route exact path="/about" component={About} />
-                    <Route exact path="/library" component={CourseMaterials} />
+                    <Route exact path="/art" component={Art} />
+                    <Route exact path="/collection/:collectionId" component={Collection} />
 
                     <Route exact path="/contact" component={Contact} />
 

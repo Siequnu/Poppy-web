@@ -36,7 +36,7 @@ export default function SimpleBottomNavigation() {
           }}
       >
         <BottomNavigationAction component={Link} to="/" label="Poppy" icon={<HomeIcon />} />
-        <BottomNavigationAction component={Link} to="/about" label="Art" icon={<BubbleChartIcon />} />
+        <BottomNavigationAction component={Link} to="/art" label="Art" icon={<BubbleChartIcon />} />
         <BottomNavigationAction component={Link} to="/contact" label="Inquiry" icon={<MessageIcon />} />
         
       </BottomNavigation>

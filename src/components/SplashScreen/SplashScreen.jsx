@@ -8,7 +8,7 @@ export default function SplashScreen() {
     <div className="SplashScreen">
       <div className="SplashScreenWrapper">
         <Suspense>
-          <img src="apple-touch-icon.png" alt="Poppy icon" />
+          <img src="/apple-touch-icon.png" alt="Poppy icon" />
         </Suspense>
       </div>
     </div>
