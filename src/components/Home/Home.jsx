@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from 'react'
-import { withRouter } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
 import PhotoDividerComponent from '../PhotoDivider/PhotoDividerComponent';
 
@@ -48,6 +48,8 @@ function Home(props) {
             </div>
           </div>
         </div>
+
+        <Button component={Link} to="/art" size="Large" variant="contained" endIcon={<LocalFloristIcon />}> Take a look at our art</Button>
       </Element>
 
       <PhotoDividerComponent thumbnail={getRandomThumbnail()} style={{ margin: '200px', display: 'block' }} />

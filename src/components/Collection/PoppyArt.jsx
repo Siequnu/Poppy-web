@@ -6,7 +6,7 @@ export function getCollections(collectionId = false) {
 
     const collections = [
         {
-            title: 'The 2021 NFT Christmas Cards',
+            title: 'POPPY 2021 NFT Christmas Cards',
             caption: "Why not make it a real 2021 Christmas by owning an exclusive NFT Christmas Card!",
             url: 'https://opensea.io/collection/christmas-card-2021',
             thumbnail: "https://lh3.googleusercontent.com/uR1bMxd3GmS53ZAV3z6Bm_wuMgZRIKjLffxAVhgKmhjaNs6-NrRWmBJi0EUeXuJx9n_cs9I36KsnBA9ikR9BgkVRbniwfW31iCPQtg=w540",
