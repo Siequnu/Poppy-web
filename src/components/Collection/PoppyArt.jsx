@@ -6,6 +6,20 @@ export function getCollections(collectionId = false) {
 
     const collections = [
         {
+            title: 'The Book of Meta, Chapter 1',
+            caption: "A world first dynamic NFT - the Book of Meta. Only the owner can see what is in the book. And each owner can leave a message in the book.",
+            url: 'https://opensea.io/collection/christmas-card-2021',
+            thumbnail: "https://i.redd.it/tvx2nu84i7z01.jpg",
+            comingSoon: true,
+            description: [
+                "A world first dynamic NFT - the Book of Meta. Only the owner can see what is in the book. And each owner can leave a message in the book.",
+                "What message will you find in this book?"
+            ],
+            items: [
+                
+            ]
+        },
+        {
             title: 'POPPY 2021 NFT Christmas Cards',
             caption: "Why not make it a real 2021 Christmas by owning an exclusive NFT Christmas Card!",
             url: 'https://opensea.io/collection/christmas-card-2021',

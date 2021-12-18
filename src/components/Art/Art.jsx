@@ -11,7 +11,7 @@ export default function Art() {
   return (
     <div className="ViewActivitiesComponent">
       {collections.map((collection, index) =>
-        <Hero key={index} title={collection.title} description={collection.caption} thumbnail={collection.thumbnail} link={'/collection/' + (index + 1)} />
+        <Hero key={index} title={collection.title} description={collection.caption} thumbnail={collection.thumbnail} link={'/collection/' + (index + 1)} comingSoon={collection.comingSoon} />
       )}
     </div>
   )
