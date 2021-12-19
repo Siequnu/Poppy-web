@@ -29,6 +29,11 @@ export function getCollections(collectionId = false) {
             ],
             items: [
                 {
+                    title: '2021 Cambridge Christmas Card',
+                    thumbnail: 'https://lh3.googleusercontent.com/NxUcF1Q6C_BO9jsULxF9aRCweY6Mud57PCKA7hUGEScSoHNzSPwkR1UOpqTcYMB9apcBaGqCTMsiUrKODzP6Eu8kk50qMDQcAGF0=w600',
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497950992639830523905',
+                },
+                {
                     title: '2021 Grumpy Cat Christmas Card',
                     thumbnail: '/assets/gifs/card23.gif',
                     url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497950984943249129473',
