@@ -9,11 +9,23 @@ import { authenticationService } from '../../services';
 
 import { SnackbarContext } from '../../App';
 
+import config from '../../config';
+
 function SignUp(props) {
 
     const { setSnackbar } = React.useContext(SnackbarContext);
 
     if (authenticationService.currentUserValue) {
+        props.history.push('/');
+    }
+
+    
+    if (!config.signupEnabled) {
+        setSnackbar({
+            text: 'Sign-ups are currently disabled',
+            open: true,
+            severity: 'warning'
+        });
         props.history.push('/');
     }
 

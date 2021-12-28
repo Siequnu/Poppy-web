@@ -11,6 +11,8 @@ const config =
     
     getRoles: '/auth/roles',
     getUsers: '/auth/users/get',
+
+    signupEnabled: false
 }
 
 export default config

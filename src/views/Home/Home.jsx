@@ -47,11 +47,11 @@ function Home() {
 
       <Element name="about" className="element">
         <div className="secondary-text">
-          <h2>We are an art collective</h2>
+          <h2>We are a Hong Kong art collective 🇭🇰 </h2>
           <div className="icon-grid">
             <div className="icon-grid-item">
               <LocalFireDepartmentIcon className="icon" />
-              <p>We are a small group of artists from 4 continents.</p>
+              <p>We believe in meaning and truth.</p>
             </div>
             <div className="icon-grid-item">
               <BubbleChartIcon className="icon" />
