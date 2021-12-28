@@ -10,7 +10,9 @@
     transform: scale(1.04);
 }
 
-.ProductThumbAndTitle {margin: 10px;}
+.ProductThumbAndTitle {
+    margin: 10px;
+}
 
 .ProductThumbAndTitle h5 {
     font-size: 14px;
@@ -25,14 +27,16 @@
 
 
 @media screen and (max-width: 414px) {
-    .ProductThumbAndTitle {margin: 5px;}
+    .ProductThumbAndTitle {
+        margin: 1px;
+    }
 
     .ProductThumbAndTitle h5 {
         font-size: 12px;
         width: 110px;
         margin: 0;
     }
-    
+
     .ProductThumbnail {
         height: 110px;
         width: 110px
