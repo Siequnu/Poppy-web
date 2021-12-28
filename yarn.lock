@@ -2005,11 +2005,6 @@
   resolved "https://registry.npmjs.org/@popperjs/core/-/core-2.10.2.tgz#0798c03351f0dea1a5a4cabddf26a55a7cbee590"
   integrity sha512-IXf3XA7+XyN7CP9gGh/XB0UxVMlvARGEgGXLubFICsUMGz6Q+DU+i4gGlpOxTjKvXjkJDJC8YdqdKkDj9qZHEQ==
 
-"@react-leaflet/core@1.0.2":
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/@react-leaflet/core/-/core-1.0.2.tgz#39c6a73f61c666d5dcf673741cea2672fa4bbae1"
-  integrity sha512-QbleYZTMcgujAEyWGki8Lx6cXQqWkNtQlqf5c7NImlIp8bKW66bFpez/6EVatW7+p9WKBOEOVci/9W7WW70EZg==
-
 "@react-spring/animated@~9.3.0":
   version "9.3.0"
   resolved "https://registry.npmjs.org/@react-spring/animated/-/animated-9.3.0.tgz#294f7696e450c4ae3abd2b59a6dd08bf70b53d3f"
@@ -10444,11 +10439,6 @@ react-app-polyfill@^2.0.0:
     regenerator-runtime "^0.13.7"
     whatwg-fetch "^3.4.1"
 
-react-bubble-ui@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.npmjs.org/react-bubble-ui/-/react-bubble-ui-1.1.1.tgz#fbe35b0e76116af89b4c8515ab8b05c9fddaa62a"
-  integrity sha512-4GGCB8hx0rZJv4DZ8rGoww5qU9QXv6UgEZg/+snanCNu4bUYab1N+Kl/JQEl0Fgh/Hhxdt4aB/guw9AbiQJU1Q==
-
 react-dev-utils@^11.0.3:
   version "11.0.4"
   resolved "https://registry.npmjs.org/react-dev-utils/-/react-dev-utils-11.0.4.tgz#a7ccb60257a1ca2e0efe7a83e38e6700d17aa37a"
@@ -10502,6 +10492,11 @@ react-fast-compare@^2.0.1:
   version "2.0.4"
   resolved "https://registry.npmjs.org/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
+
+react-image-gallery@^1.2.7:
+  version "1.2.7"
+  resolved "https://registry.npmjs.org/react-image-gallery/-/react-image-gallery-1.2.7.tgz#2dfb83c52f32828a5340ca565f91bca58241fcfe"
+  integrity sha512-ts7yMWykvZhslGMuvVAUk7a1dJIx9QtIwK6Clv8dOGxPsJid92FRrLvXbZDvkYcUyj48sHalnBhqU6mZNCB2jg==
 
 "react-is@>= 16.8.0", react-is@^17.0.1, react-is@^17.0.2:
   version "17.0.2"
@@ -12437,6 +12432,11 @@ unbox-primitive@^1.0.1:
     has-bigints "^1.0.1"
     has-symbols "^1.0.2"
     which-boxed-primitive "^1.0.2"
+
+underscore@^1.13.2:
+  version "1.13.2"
+  resolved "https://registry.npmjs.org/underscore/-/underscore-1.13.2.tgz#276cea1e8b9722a8dbed0100a407dda572125881"
+  integrity sha512-ekY1NhRzq0B08g4bGuX4wd2jZx5GnKz6mKSqFL4nqBlfyMGiG10gDFhDTMEfYmDL6Jy0FUIZp7wiRB+0BP7J2g==
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
