@@ -194,6 +194,63 @@ export function getCollections(collectionId = false) {
                     url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951009132504940545',
                 },
             ]
+        },
+        {
+            title: 'The Planets of Meta',
+            caption: "Pixelated visions of our future oasis. Collectible and unique NFT art.",
+            url: 'https://opensea.io/collection/the-planets-of-meta',
+            thumbnail: "/assets/planets/screens.gif",
+            description: [
+                "Digital abstract painting - how do androids dream? We attempted to find out"
+            ],
+            items: [
+                {
+                    title: 'Pith',
+                    thumbnail: '/assets/planets/card00021.png',
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951010232016568321',
+                },
+                {
+                    title: 'Brook',
+                    thumbnail: '/assets/planets/card00020.png',
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951011331528196097/',
+                },
+                {
+                    title: 'Paean',
+                    thumbnail: '/assets/planets/card00018.png',
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951012431039823873/',
+                },
+                {
+                    title: 'Aver',
+                    thumbnail: '/assets/planets/card00017.png',
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951013530551451649/',
+                },
+                {
+                    title: 'Tautol',
+                    thumbnail: '/assets/planets/card00016.png',
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951014630063079425/',
+                },
+                {
+                    title: 'Rift',
+                    thumbnail: '/assets/planets/card00008.png',
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951015729574707201/',
+                },
+                {
+                    title: 'Obdur',
+                    thumbnail: '/assets/planets/card00007.png',
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951016829086334977/',
+                },
+                {
+                    title: 'Penur',
+                    thumbnail: '/assets/planets/card00006.png',
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951017928597962753/',
+                },
+                {
+                    title: 'Excins',
+                    thumbnail: '/assets/planets/card00004.png',
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951019028109590529/',
+                },
+               
+            ]
         }
     ]
 
