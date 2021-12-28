@@ -28,7 +28,7 @@ function Collection() {
 
             {collection.description.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
 
-            <Button component={Link} to={collection.url} size="Large" style={{margin: '40px'}} variant="contained" endIcon={<ChevronRightIcon />}> View the entire collection on OpenSea</Button>
+            <Button component={Link} to={{pathname: collection.url}} target="_blank" size="Large" style={{margin: '40px'}} variant="contained" endIcon={<ChevronRightIcon />}> View the entire collection on OpenSea</Button>
 
             <Card cards={collection.items} height='auto' />
 
