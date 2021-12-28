@@ -9,7 +9,7 @@ import BounceLoader from "react-spinners/BounceLoader";
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import Button from '@mui/material/Button';
 
-import Logout from '../Auth/Logout';
+import Logout from '../../views/Auth/Logout';
 import config from '../../config';
 
 import { authenticationService } from '../../services';

@@ -1,0 +1,7 @@
+.ProductCards {
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+}

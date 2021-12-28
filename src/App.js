@@ -3,13 +3,13 @@ import React, { useEffect } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 // Authentication imports
-import { PrivateRoute } from './components/Auth/PrivateRoute';
-import Login from './components/Auth/Login';
-import Logout from './components/Auth/Logout';
-import ResetWithToken from './components/Auth/ResetWithToken';
-import Reset from './components/Auth/Reset';
-import SignUp from './components/Auth/SignUp';
-import ConfirmEmail from './components/Auth/ConfirmEmail';
+import { PrivateRoute } from './views/Auth/PrivateRoute';
+import Login from './views/Auth/Login';
+import Logout from './views/Auth/Logout';
+import ResetWithToken from './views/Auth/ResetWithToken';
+import Reset from './views/Auth/Reset';
+import SignUp from './views/Auth/SignUp';
+import ConfirmEmail from './views/Auth/ConfirmEmail';
 
 // App styling
 import './App.css';
@@ -22,15 +22,15 @@ import Navbar from './components/Navbar/Navbar';
 import TopBar from './components/TopBar/TopBar';
 
 // Page components
-import Home from './components/Home/Home.jsx'
-import SplashScreen from './components/SplashScreen/SplashScreen';
-import UserMenu from './components/UserMenu/UserMenu.jsx';
-import Art from './components/Art/Art';
-import Contact from './components/Contact/Contact';
-import Collection from './components/Collection/Collection';
+import Home from './views/Home/Home.jsx'
+import SplashScreen from './views/SplashScreen/SplashScreen';
+import UserMenu from './views/UserMenu/UserMenu.jsx';
+import Art from './views/Art/Art';
+import Contact from './views/Contact/Contact';
+import Collection from './views/Collection/Collection';
 
 // Admin components
-import Dashboard from './components/Dashboard/Dashboard';
+import Dashboard from './views/Dashboard/Dashboard';
 
 // Notifications
 import Snackbar from '@mui/material/Snackbar';

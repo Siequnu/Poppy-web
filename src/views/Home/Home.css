@@ -1,4 +1,8 @@
-h1, h2, h3 {font-family: 'Bona Nova';}
+h1,
+h2,
+h3 {
+    font-family: 'Bona Nova';
+}
 
 .icon-grid {
     display: flex;
@@ -35,7 +39,9 @@ h1, h2, h3 {font-family: 'Bona Nova';}
     font-size: 18px;
 }
 
-.ButtonLink {text-decoration: none;}
+.ButtonLink {
+    text-decoration: none;
+}
 
 @media screen and (max-width: 568px) {
     .icon-grid {

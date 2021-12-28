@@ -2,7 +2,7 @@
 import React from 'react'
 import { Link, withRouter } from 'react-router-dom';
 
-import PhotoDividerComponent from '../PhotoDivider/PhotoDividerComponent';
+import PhotoDividerComponent from '../../components/PhotoDivider/PhotoDividerComponent';
 
 import Button from '@mui/material/Button';
 
@@ -15,7 +15,7 @@ import LocalFloristIcon from '@mui/icons-material/LocalFlorist';
 
 import './Home.css';
 
-function Home(props) {
+function Home() {
 
   const getRandomThumbnail = () => `/nft-background.jpeg`
 
@@ -24,11 +24,11 @@ function Home(props) {
 
       <h1>Poppy</h1>
       
-      <a className="ButtonLink" href="https://opensea.io/POPPIES">
+      <a className="ButtonLink" target="_blank" href="https://opensea.io/POPPIES" rel="noreferrer">
       <Button size="Large" variant="contained" endIcon={<LocalFloristIcon />}> Our OpenSea store</Button>
       </a>
   
-      <PhotoDividerComponent thumbnail={getRandomThumbnail()} style={{ margin: '200px', display: 'block' }} />
+      <PhotoDividerComponent thumbnail={getRandomThumbnail()} />
 
       <Element name="about" className="element">
         <div className="secondary-text">
@@ -52,7 +52,7 @@ function Home(props) {
         <Button component={Link} to="/art" size="Large" variant="contained" endIcon={<LocalFloristIcon />}> Take a look at our art</Button>
       </Element>
 
-      <PhotoDividerComponent thumbnail={getRandomThumbnail()} style={{ margin: '200px', display: 'block' }} />
+      <PhotoDividerComponent thumbnail={getRandomThumbnail()} />
     </>
   )
 }

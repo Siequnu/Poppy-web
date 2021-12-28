@@ -1,9 +1,9 @@
 .ProductThumbnail {
-    width: 200px;
-    height: 200px;
+    height: 300px;
     margin: 2.5px;
     transition: .3s;
     border-radius: .5em;
+    cursor: pointer;
 }
 
 .ProductThumbnail:hover {

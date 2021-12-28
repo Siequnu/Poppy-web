@@ -1,6 +1,6 @@
 import './Art.css'
 
-import Hero from '../Hero/Hero';
+import Hero from '../../components/Hero/Hero';
 
 import { getCollections } from '../Collection/PoppyArt';
 

@@ -1,5 +1,7 @@
 import React from "react"
 
+import './ProductThumbnail.css';
+
 export default function ProductThumbnail(props) {
     return (
         <div className="ProductThumbAndTitle">
