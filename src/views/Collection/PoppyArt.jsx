@@ -514,7 +514,7 @@ export function getCollections(collectionId = false) {
                 },
                 {
                     title: 'Sphere 16',
-                    thumbnail: '/assets/geoorphist/orphist16jpeg',
+                    thumbnail: '/assets/geoorphist/orphist16.jpeg',
                     url: false,
                 },
                 {
