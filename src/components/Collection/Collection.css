@@ -1,0 +1,20 @@
+.CollectionComponent {
+    min-height: stretch;
+    min-height: -webkit-fill-available;
+    max-width: 1200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.ProductWrapper {
+    display: block;
+    margin: 0 auto;
+}
+
+.ProductCards {
+    display: flex;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+    justify-content: center;
+}

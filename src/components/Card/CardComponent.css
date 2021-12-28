@@ -52,6 +52,7 @@
 .card .content h4 {
     font-size: 25px;
     margin: 20px 0 5px 0;
+    font-family: 'Bona Nova';
 }
 
 .card .content h5 {
@@ -88,7 +89,7 @@
     margin: 0 auto;
     text-align: center;
     font-size: 18px;
-    background-color: #147185;
+    background-color: #FD37AA;
     color: white;
     padding: 15px;
     border-bottom-left-radius: .2em;

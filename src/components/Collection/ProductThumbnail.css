@@ -1,0 +1,41 @@
+.ProductThumbnail {
+    width: 200px;
+    height: 200px;
+    margin: 2.5px;
+    transition: .3s;
+    border-radius: .5em;
+}
+
+.ProductThumbnail:hover {
+    transform: scale(1.04);
+}
+
+.ProductThumbAndTitle {margin: 10px;}
+
+.ProductThumbAndTitle h5 {
+    font-size: 14px;
+    width: 200px;
+    margin: 0;
+}
+
+.ProductThumbAndTitle p {
+    font-size: 12px;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 414px) {
+    .ProductThumbAndTitle {margin: 5px;}
+
+    .ProductThumbAndTitle h5 {
+        font-size: 12px;
+        width: 110px;
+        margin: 0;
+    }
+    
+    .ProductThumbnail {
+        height: 110px;
+        width: 110px
+    }
+
+}
