@@ -1,3 +1,7 @@
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded {
+    border-radius: .5em;
+}
+
 .card {
     display: inline-block;
     border-radius: .5em;
@@ -20,6 +24,8 @@
 }
 
 .card .card-image img {
+    border-top-left-radius: .5em;
+    border-top-right-radius: .5em;
     width: 100%;
     object-fit: cover;
     transition: all .25s ease;
@@ -108,17 +114,6 @@
     .card {max-width: unset;}
 }
 
-@media screen and (max-height: 700px) {
-    .card .card-image {
-        height: 400px;
-    }
-}
-
-@media screen and (max-height: 900px) {
-    .card .card-image {
-        height: 500px;
-    }
-}
 
 @media screen and (max-height: 568px) {
     .card .card-image {
