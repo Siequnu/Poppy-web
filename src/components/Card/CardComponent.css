@@ -1,6 +1,6 @@
 .card {
     display: inline-block;
-    max-width: 350px;
+    border-radius: .5em;
     margin: 30px 15px;
     line-height: 1.42857143;
     border-radius: .5em;
@@ -13,8 +13,6 @@
 }
 
 .card .card-image {
-    width: 100%;
-    height: 250px;
     border-top-left-radius: .5em;
     border-top-right-radius: .5em;
     display: block;
@@ -23,7 +21,6 @@
 
 .card .card-image img {
     width: 100%;
-    height: 250px;
     object-fit: cover;
     transition: all .25s ease;
     object-position: 50% 5%;
@@ -107,9 +104,25 @@
     vertical-align: middle;
 }
 
+@media screen and (min-height: 568px) {
+    .card {max-width: unset;}
+}
+
+@media screen and (max-height: 700px) {
+    .card .card-image {
+        height: 400px;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    .card .card-image {
+        height: 500px;
+    }
+}
+
 @media screen and (max-height: 568px) {
     .card .card-image {
-        height: 150px;
+        height: 250px;
     }
 
     .card .content h4 {
@@ -125,14 +138,6 @@
         font-size: 15px;
         margin: 0;
     }
-}
-
-@media screen and (max-width: 1000px) {
-    .card {width: 250px;}
-}
-
-@media screen and (max-width: 414px) {
-    .card {width: 400px;}
 }
 
 
