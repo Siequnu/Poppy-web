@@ -34,7 +34,7 @@ function Collection() {
         <div>
             <ProductPreviewDialog product={selectedProduct} open={dialogOpen} onClose={() => setDialogOpen(false)} />
 
-            <Button component={Link} to="/art" size="Large" style={{ margin: '10px 40px 40px 0', float: 'left' }} variant="contained" startIcon={<ArrowBackIosIcon />}> Back to collections</Button>
+            <Button component={Link} to="/art" size="Large" style={{ margin: '20px 40px 40px 10px', float: 'left' }} variant="contained" startIcon={<ArrowBackIosIcon />}> Back to collections</Button>
             <br />
             <br />
 
@@ -42,7 +42,11 @@ function Collection() {
 
             {collection.description.map((paragraph, index) => <p key={index}>{paragraph}</p>)}
 
-            <Button component={Link} to={{ pathname: collection.url }} target="_blank" size="Large" style={{ margin: '40px' }} variant="contained" endIcon={<ChevronRightIcon />}> View the entire collection on OpenSea</Button>
+            {collection.url ?
+                <Button component={Link} to={{ pathname: collection.url }} target="_blank" size="Large" style={{ margin: '40px' }} variant="contained" endIcon={<ChevronRightIcon />}> View the entire collection on OpenSea</Button>
+            :
+                <Button component={Link} to={'/contact'} size="Large" style={{ margin: '40px' }} variant="contained" endIcon={<ChevronRightIcon />}> This is a private collection. Contact us to purchase these NFTs</Button>
+            }   
 
             <div style={{ display: 'block', margin: '0 auto' }}>
                 <div className="ProductCards">

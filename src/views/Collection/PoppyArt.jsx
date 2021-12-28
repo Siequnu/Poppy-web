@@ -113,7 +113,7 @@ export function getCollections(collectionId = false) {
             title: 'Digital dreamers',
             caption: "Digital abstract painting. Unique, collectible, generative digital art.",
             url: 'https://opensea.io/collection/digital-dreamers',
-            thumbnail: "/assets/digital_dreamers/header.gif",
+            thumbnail: "/assets/digital_dreamers/screens.gif",
             description: [
                 "Digital abstract painting - how do androids dream? We attempted to find out"
             ],
@@ -201,7 +201,8 @@ export function getCollections(collectionId = false) {
             url: 'https://opensea.io/collection/the-planets-of-meta',
             thumbnail: "/assets/planets/screens.gif",
             description: [
-                "Digital abstract painting - how do androids dream? We attempted to find out"
+                "Digital abstract painting - how do androids dream? We attempted to find out",
+                "This work is an elegiacal and haunting, kinetic cryptic collage of imagery consisting of grainy photos of ACT-UP activists being arrested which is reminiscent of mass migrations of people."
             ],
             items: [
                 {
@@ -250,6 +251,517 @@ export function getCollections(collectionId = false) {
                     url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951019028109590529/',
                 },
                
+            ]
+        },
+        {
+            title: 'Bauhaus - study 1',
+            caption: "This work is a minimal, assembled small collages from cut paper consisting of hyperreal landscapes which is reminiscent of bodily anxiety.",
+            url: false,
+            thumbnail: "/assets/bauhaus-1/screens.gif",
+            description: [
+                "This work is a brilliantly colored, hard-edge world in which death and waste are omnipresent consisting of a multi-channel image which is reminiscent of a preoccupation with haunted spaces, aporia and liminality.",
+                "The work deploys obsessions with popular culture and video technologies as problematizing the traditional relationship between spectator and on-screen fetish object."
+            ],
+            items: [
+                {
+                    title: 'Bauhaus 1',
+                    thumbnail: '/assets/bauhaus-1/bauhaus1.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Bauhaus 2',
+                    thumbnail: '/assets/bauhaus-1/bauhaus2.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Bauhaus 3',
+                    thumbnail: '/assets/bauhaus-1/bauhaus3.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Bauhaus 4',
+                    thumbnail: '/assets/bauhaus-1/bauhaus4.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Bauhaus 5',
+                    thumbnail: '/assets/bauhaus-1/bauhaus5.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Bauhaus 6',
+                    thumbnail: '/assets/bauhaus-1/bauhaus6.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Bauhaus 7',
+                    thumbnail: '/assets/bauhaus-1/bauhaus7.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Bauhaus 8',
+                    thumbnail: '/assets/bauhaus-1/bauhaus8.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Bauhaus 9',
+                    thumbnail: '/assets/bauhaus-1/bauhaus9.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Bauhaus 10',
+                    thumbnail: '/assets/bauhaus-1/bauhaus10.jpeg',
+                    url: false,
+                }
+            ]
+        },
+        {
+            title: 'Trees - geometry study',
+            caption: "This work is a brutal, primitivistic set of twenty trees consisting of transcendental beauty which is reminiscent of the pursuit of creativity.",
+            url: false,
+            thumbnail: "/assets/geobau/screens.gif",
+            description: [
+                "The work deploys meticulous attention as collapsing the past and present to use allegory as a form of live-action or real-time role-play.",
+                "The work deploys experimental geography as symbolizing a breakdown between the natural and artificial."
+            ],
+            items: [
+                {
+                    title: 'Tree 1',
+                    thumbnail: '/assets/geobau/tree1.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 2',
+                    thumbnail: '/assets/geobau/tree2.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 3',
+                    thumbnail: '/assets/geobau/tree3.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 4',
+                    thumbnail: '/assets/geobau/tree4.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 5',
+                    thumbnail: '/assets/geobau/tree5.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 6',
+                    thumbnail: '/assets/geobau/tree6.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 7',
+                    thumbnail: '/assets/geobau/tree7.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 8',
+                    thumbnail: '/assets/geobau/tree8.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 9',
+                    thumbnail: '/assets/geobau/tree9.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 10',
+                    thumbnail: '/assets/geobau/tree10.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 11',
+                    thumbnail: '/assets/geobau/tree11.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 12',
+                    thumbnail: '/assets/geobau/tree12.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 13',
+                    thumbnail: '/assets/geobau/tree13.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 14',
+                    thumbnail: '/assets/geobau/tree14.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 15',
+                    thumbnail: '/assets/geobau/tree15.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 16',
+                    thumbnail: '/assets/geobau/tree16.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 17',
+                    thumbnail: '/assets/geobau/tree17.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 18',
+                    thumbnail: '/assets/geobau/tree18.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 19',
+                    thumbnail: '/assets/geobau/tree19.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Tree 20',
+                    thumbnail: '/assets/geobau/tree20.jpeg',
+                    url: false,
+                }
+            ]
+        },
+        {
+            title: 'Sphere - sacred geometries',
+            caption: "The work deploys synthesized, hybrid organisms as denouncing the vast income gap between rich and poor.",
+            url: false,
+            thumbnail: "/assets/geoorphist/screens.gif",
+            description: [
+                "This work is an erasure-inducing, technological infinite visual abyss consisting of drawings and collages which is reminiscent of death as a metaphor for the possibility of spectacular transformation and rebirth.",
+                "The work deploys synthesized, hybrid organisms as denouncing the vast income gap between rich and poor."
+            ],
+            items: [
+                {
+                    title: 'Sphere 1',
+                    thumbnail: '/assets/geoorphist/orphist1.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 2',
+                    thumbnail: '/assets/geoorphist/orphist2.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 3',
+                    thumbnail: '/assets/geoorphist/orphist3.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 4',
+                    thumbnail: '/assets/geoorphist/orphist4.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 5',
+                    thumbnail: '/assets/geoorphist/orphist5.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 6',
+                    thumbnail: '/assets/geoorphist/orphist6.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 7',
+                    thumbnail: '/assets/geoorphist/orphist7.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 8',
+                    thumbnail: '/assets/geoorphist/orphist8.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 9',
+                    thumbnail: '/assets/geoorphist/orphist9.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 10',
+                    thumbnail: '/assets/geoorphist/orphist10.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 11',
+                    thumbnail: '/assets/geoorphist/orphist11.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 12',
+                    thumbnail: '/assets/geoorphist/orphist12.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 13',
+                    thumbnail: '/assets/geoorphist/orphist13.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 14',
+                    thumbnail: '/assets/geoorphist/orphist14.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 15',
+                    thumbnail: '/assets/geoorphist/orphist15.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 16',
+                    thumbnail: '/assets/geoorphist/orphist16jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 17',
+                    thumbnail: '/assets/geoorphist/orphist17.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 18',
+                    thumbnail: '/assets/geoorphist/orphist18.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 19',
+                    thumbnail: '/assets/geoorphist/orphist19.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Sphere 20',
+                    thumbnail: '/assets/geoorphist/orphist20.jpeg',
+                    url: false,
+                }
+                
+            ]
+        },
+        {
+            title: 'Geopop - secular shapes',
+            caption: "The work deploys experimental geography as the affective dimension.",
+            url: false,
+            thumbnail: "/assets/geopop/screens.gif",
+            description: [
+                "This work is a virtual reality, hard-edge painting that is experienced both visually and physically consisting of individual inhabitants in a living network which is reminiscent of the dangers of dark magic and meditating on human suffering.",
+                "The work deploys experimental geography as the affective dimension."
+            ],
+            items: [
+                {
+                    title: 'Geopop 1',
+                    thumbnail: '/assets/geopop/geopop1.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 2',
+                    thumbnail: '/assets/geopop/geopop2.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 3',
+                    thumbnail: '/assets/geopop/geopop3.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 4',
+                    thumbnail: '/assets/geopop/geopop4.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 5',
+                    thumbnail: '/assets/geopop/geopop5.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 6',
+                    thumbnail: '/assets/geopop/geopop6.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 7',
+                    thumbnail: '/assets/geopop/geopop7.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 8',
+                    thumbnail: '/assets/geopop/geopop8.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 9',
+                    thumbnail: '/assets/geopop/geopop9.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 10',
+                    thumbnail: '/assets/geopop/geopop10.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 11',
+                    thumbnail: '/assets/geopop/geopop11.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 12',
+                    thumbnail: '/assets/geopop/geopop12.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 13',
+                    thumbnail: '/assets/geopop/geopop13.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 14',
+                    thumbnail: '/assets/geopop/geopop14.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 15',
+                    thumbnail: '/assets/geopop/geopop15.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 16',
+                    thumbnail: '/assets/geopop/geopop16.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 17',
+                    thumbnail: '/assets/geopop/geopop17.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 18',
+                    thumbnail: '/assets/geopop/geopop18.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 19',
+                    thumbnail: '/assets/geopop/geopop19.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Geopop 20',
+                    thumbnail: '/assets/geopop/geopop20.jpeg',
+                    url: false,
+                }
+            ]
+        },
+        {
+            title: 'Triangular improvisation',
+            caption: "The work deploys private symbols as symbolizing artistic freedom of speech has been “won” at the cost of art’s irrelevance and powerlessness.",
+            url: false,
+            thumbnail: "/assets/triangles/screens.gif",
+            description: [
+                "This work is a resonating and contrasting, sexuality-oriented infinite visual abyss consisting of elaborate sculptures and sets which is reminiscent of the unsettling dance of seduction, power, trust, tenderness, loss, and betrayal.",
+                "The work deploys private symbols as symbolizing artistic freedom of speech has been “won” at the cost of art’s irrelevance and powerlessness."
+            ],
+            items: [
+                {
+                    title: 'Triangulus 1',
+                    thumbnail: '/assets/triangles/triangle1.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 2',
+                    thumbnail: '/assets/triangles/triangle2.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 3',
+                    thumbnail: '/assets/triangles/triangle3.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 4',
+                    thumbnail: '/assets/triangles/triangle4.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 5',
+                    thumbnail: '/assets/triangles/triangle5.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 6',
+                    thumbnail: '/assets/triangles/triangle6.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 7',
+                    thumbnail: '/assets/triangles/triangle7.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 8',
+                    thumbnail: '/assets/triangles/triangle8.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 9',
+                    thumbnail: '/assets/triangles/triangle9.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 10',
+                    thumbnail: '/assets/triangles/triangle10.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 11',
+                    thumbnail: '/assets/triangles/triangle11.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 12',
+                    thumbnail: '/assets/triangles/triangle12.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 13',
+                    thumbnail: '/assets/triangles/triangle13.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 14',
+                    thumbnail: '/assets/triangles/triangle14.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 15',
+                    thumbnail: '/assets/triangles/triangle15.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 16',
+                    thumbnail: '/assets/triangles/triangle16.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 17',
+                    thumbnail: '/assets/triangles/triangle17.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 18',
+                    thumbnail: '/assets/triangles/triangle18.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 19',
+                    thumbnail: '/assets/triangles/triangle19.png',
+                    url: false,
+                },
+                {
+                    title: 'Triangulus 20',
+                    thumbnail: '/assets/triangles/triangle20.png',
+                    url: false,
+                }
             ]
         }
     ]

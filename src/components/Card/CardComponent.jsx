@@ -20,9 +20,17 @@ function CardComponent(props) {
                         <p>{card.description}</p>
                     </div>
 
-                    <a href={card.url} target="_blank" rel="noreferrer" className="read-more" style={{ textDecoration: 'none' }}>
-                        <span>Buy now <ChevronRightIcon className="chevron-right" /></span>
-                    </a>
+                    {card.url ?
+                        <a href={card.url} target="_blank" rel="noreferrer" className="read-more" style={{ textDecoration: 'none' }}>
+                            <span>Buy now <ChevronRightIcon className="chevron-right" /></span>
+                        </a>
+                    :
+                        <a href={'/contact'} className="read-more" style={{ textDecoration: 'none' }}>
+                            <span>Contact us to purchase <ChevronRightIcon className="chevron-right" /></span>
+                        </a>
+                    }
+                    
+                    
 
                 </div>
             ))}
