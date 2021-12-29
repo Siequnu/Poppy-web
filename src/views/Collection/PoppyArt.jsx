@@ -763,7 +763,34 @@ export function getCollections(collectionId = false) {
                     url: false,
                 }
             ]
-        }
+        },
+        {
+            title: 'Hong Kong 🇭🇰',
+            caption: "This work is a precious and disturbing, autobiographical collected and manipulated images consisting of otherworldly landscapes that reference occult imagery which is reminiscent of a too-perfect repressed 'paradise.",
+            url: false,
+            thumbnail: "/assets/hongkong/screens.gif",
+            description: [
+                "This work is an erasure-inducing, technological infinite visual abyss consisting of drawings and collages which is reminiscent of death as a metaphor for the possibility of spectacular transformation and rebirth.",
+                "The work deploys images of luxury residential skyscrapers as suggesting at once the interior and exterior of the human body."
+            ],
+            items: [
+                {
+                    title: 'Hong Kong 1',
+                    thumbnail: '/assets/hongkong/HongKong1.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Hong Kong 2',
+                    thumbnail: '/assets/hongkong/HongKong2.jpeg',
+                    url: false,
+                },
+                {
+                    title: 'Hong Kong 3',
+                    thumbnail: '/assets/hongkong/HongKong3.jpeg',
+                    url: false,
+                },
+            ]
+        },
     ]
 
 
