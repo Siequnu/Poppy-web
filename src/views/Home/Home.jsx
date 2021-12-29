@@ -59,7 +59,7 @@ function Home() {
       <Element name="about" className="element">
 
         <h3>⏱ Next Hong Kong NFT release:</h3>
-        <Countdown date={'2021-12-29T19:00:00'} renderer={renderer} />
+        <Countdown date={'2021-12-30T19:00:00'} renderer={renderer} />
 
       </Element>
 
