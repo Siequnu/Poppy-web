@@ -1,7 +1,7 @@
 .TopBar {
     width: 100%;
     background-color: #F8F8F8;
-    color: #FD37AA;
+    color: #B41D74;
     display: flex;
     position: fixed;
     top: 0;
@@ -17,7 +17,7 @@
     padding: 0;
 }
 
-.TopBar p.MyoText {
+.TopBar h3.MyoText {
     align-self: center;
     text-align: center;
     margin: 0 auto;

@@ -3,7 +3,6 @@ import { Link as RouterLink } from 'react-router-dom';
 import { Link } from '@mui/material';
 
 import './TopBar.css';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 import { Device } from '@capacitor/device';
 
@@ -25,9 +24,9 @@ export default function TopBar(props) {
       <Link component={RouterLink} to="/" className="AccountLink">
         <img className="MyoLogo" src="/apple-touch-icon.png" alt="Myo app logo" />
       </Link>
-      <p className="MyoText"></p>
+      <h3 className="MyoText">Poppy</h3>
       <Link component={RouterLink} to="/user" className="AccountLink">
-        <AccountCircleIcon fontSize="large" className="AccountCircle" />
+        
       </Link>
     </div>
   )

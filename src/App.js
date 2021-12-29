@@ -41,12 +41,12 @@ export const SnackbarContext = React.createContext();
 
 export default function App() {
 
-  const [splashScreen, setSplashScreen] = React.useState(true)
+  const [splashScreen, setSplashScreen] = React.useState(false)
 
   useEffect(() => {
     setTimeout(() => {
       setSplashScreen(false)
-    }, 1500);
+    }, 800);
   }, []);
 
   const theme = createTheme({
