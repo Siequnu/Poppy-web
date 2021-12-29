@@ -6,7 +6,7 @@ export function getCollections(collectionId = false) {
 
     const collections = [
         {
-            title: 'The Iconic McLaren Senna Collection',
+            title: 'The Iconic McLaren Senna Collection 🏎',
             caption: "The highly collectible 2017 sports car reimagined for the metaverse.",
             url: 'https://opensea.io/collection/mclaren-senna',
             thumbnail: "https://lh3.googleusercontent.com/C89fBczQt7I_BUvLoy5gUSZZlFhoQE-ey93nbt5ZNjOxiQ9MAvih70u_3XU3XZ7WgvjgqqLGu1UtF2-wH0ZIpcqpYCOOuR4-VnuJ=w403",
@@ -50,7 +50,7 @@ export function getCollections(collectionId = false) {
 
 
         {
-            title: 'POPPY 2021 NFT Christmas Cards',
+            title: 'NFT Christmas Cards 🎄',
             caption: "Why not make it a real 2021 Christmas by owning an exclusive NFT Christmas Card!",
             url: 'https://opensea.io/collection/christmas-card-2021',
             thumbnail: "https://lh3.googleusercontent.com/uR1bMxd3GmS53ZAV3z6Bm_wuMgZRIKjLffxAVhgKmhjaNs6-NrRWmBJi0EUeXuJx9n_cs9I36KsnBA9ikR9BgkVRbniwfW31iCPQtg=w540",
@@ -110,7 +110,7 @@ export function getCollections(collectionId = false) {
             ]
         },
         {
-            title: 'Digital dreamers',
+            title: 'Digital dreamers 💭',
             caption: "Digital abstract painting. Unique, collectible, generative digital art.",
             url: 'https://opensea.io/collection/digital-dreamers',
             thumbnail: "/assets/digital_dreamers/screens.gif",
@@ -196,7 +196,7 @@ export function getCollections(collectionId = false) {
             ]
         },
         {
-            title: 'The Planets of Meta',
+            title: 'The Planets of Meta 🌙',
             caption: "Pixelated visions of our future oasis. Collectible and unique NFT art.",
             url: 'https://opensea.io/collection/the-planets-of-meta',
             thumbnail: "/assets/planets/screens.gif",
@@ -316,7 +316,7 @@ export function getCollections(collectionId = false) {
             ]
         },
         {
-            title: 'Trees - geometry study',
+            title: 'Bauhaus study 🔷',
             caption: "This work is a brutal, primitivistic set of twenty trees consisting of transcendental beauty which is reminiscent of the pursuit of creativity.",
             url: false,
             thumbnail: "/assets/geobau/screens.gif",
@@ -428,7 +428,7 @@ export function getCollections(collectionId = false) {
             ]
         },
         {
-            title: 'Sphere - sacred geometries',
+            title: 'Sacred geometry 🟠',
             caption: "The work deploys synthesized, hybrid organisms as denouncing the vast income gap between rich and poor.",
             url: false,
             thumbnail: "/assets/geoorphist/screens.gif",
@@ -541,7 +541,7 @@ export function getCollections(collectionId = false) {
             ]
         },
         {
-            title: 'Geopop - secular shapes',
+            title: 'Geopopular shapes 🟪',
             caption: "The work deploys experimental geography as the affective dimension.",
             url: false,
             thumbnail: "/assets/geopop/screens.gif",
@@ -653,7 +653,7 @@ export function getCollections(collectionId = false) {
             ]
         },
         {
-            title: 'Triangular improvisation',
+            title: 'Triangular impro 🔺',
             caption: "The work deploys private symbols as symbolizing artistic freedom of speech has been “won” at the cost of art’s irrelevance and powerlessness.",
             url: false,
             thumbnail: "/assets/triangles/screens.gif",
