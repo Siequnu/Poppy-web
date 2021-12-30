@@ -767,27 +767,27 @@ export function getCollections(collectionId = false) {
         {
             title: 'Hong Kong 🇭🇰',
             caption: "This work is a precious and disturbing, autobiographical collected and manipulated images consisting of otherworldly landscapes that reference occult imagery which is reminiscent of a too-perfect repressed 'paradise.",
-            url: false,
+            url: 'https://opensea.io/collection/hong-kong-visions',
             thumbnail: "/assets/hongkong/screens.gif",
             description: [
                 "This work is an erasure-inducing, technological infinite visual abyss consisting of drawings and collages which is reminiscent of death as a metaphor for the possibility of spectacular transformation and rebirth.",
-                "The work deploys images of luxury residential skyscrapers as suggesting at once the interior and exterior of the human body."
+                "The work deploys images of Hong Kong, from luxury residential skyscrapers to empty beaches as suggesting at once the interior and exterior of the human body."
             ],
             items: [
                 {
-                    title: 'Hong Kong 1',
+                    title: 'Tian Tan Buddha',
                     thumbnail: '/assets/hongkong/HongKong1.jpeg',
-                    url: false,
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951020127621218305/',
                 },
                 {
-                    title: 'Hong Kong 2',
+                    title: 'Sai Kung Moonrise',
                     thumbnail: '/assets/hongkong/HongKong2.jpeg',
-                    url: false,
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951021227132846081',
                 },
                 {
-                    title: 'Hong Kong 3',
+                    title: 'Central',
                     thumbnail: '/assets/hongkong/HongKong3.jpeg',
-                    url: false,
+                    url: 'https://opensea.io/assets/0x495f947276749ce646f68ac8c248420045cb7b5e/45817393092005930444668747326878441749376301525675786550497951022326644473857',
                 },
             ]
         },
