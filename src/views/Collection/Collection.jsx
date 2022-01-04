@@ -37,6 +37,7 @@ function Collection() {
             <Button component={Link} to="/art" size="Large" style={{ margin: '20px 40px 40px 10px', float: 'left' }} variant="contained" startIcon={<ArrowBackIosIcon />}> Back to collections</Button>
             <br />
             <br />
+            <br />
 
             <h2 style={{ marginTop: '35px' }}>{collection.title}</h2>
 
@@ -53,6 +54,8 @@ function Collection() {
                     {collection.items.map((product, i) => <ProductThumbnail product={product} key={i} i={i} onClick={handleOpenCard} />)}
                 </div>
             </div>
+
+            <Button component={Link} to="/art" size="Large" style={{ margin: '20px 40px 40px 10px', float: 'left' }} variant="contained" startIcon={<ArrowBackIosIcon />}> Back to collections</Button>
 
             <PhotoDividerComponent thumbnail={getRandomThumbnail()} />
         </div>

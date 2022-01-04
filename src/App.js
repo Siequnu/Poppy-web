@@ -36,6 +36,9 @@ import Dashboard from './views/Dashboard/Dashboard';
 import Snackbar from '@mui/material/Snackbar';
 import { Alert } from '@mui/material';
 
+// Scrolling
+import ScrollToTop from './helpers/scroll-to-top';
+
 export const SnackbarContext = React.createContext();
 
 
@@ -136,6 +139,8 @@ export default function App() {
               <BrowserRouter>
 
                 <TopBar />
+
+                <ScrollToTop />
 
                 <div className="AppWrapper">
 
