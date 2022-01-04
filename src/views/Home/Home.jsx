@@ -50,6 +50,13 @@ function Home() {
     }
   };
 
+  // If after 7pm, next day at 7pm
+  const today = new Date()
+  const tomorrow = new Date(today)
+  tomorrow.setDate(tomorrow.getDate() + 1)
+  tomorrow.setHours(19,0,0,0)
+  console.log(tomorrow)
+
   return (
     <>
       <h2>We are a Hong Kong art collective 🇭🇰 </h2>
@@ -59,7 +66,7 @@ function Home() {
       <Element name="about" className="element">
 
         <h3>⏱ Next Hong Kong NFT release:</h3>
-        <Countdown date={'2021-12-31T19:00:00'} renderer={renderer} />
+        <Countdown date={tomorrow} renderer={renderer} />
 
       </Element>
 
