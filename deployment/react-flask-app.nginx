@@ -1,7 +1,7 @@
 server {
     listen 80;
-    root /home/ubuntu/thu-business-english/build;
-    server_name thubusinessenglish.com thubusinessenglish.com;
+    root /home/ubuntu/Poppy-web/build;
+    server_name poppy24.com www.poppy24.com;
     index index.html;
 
     location / {
